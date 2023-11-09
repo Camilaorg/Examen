@@ -15,6 +15,65 @@ public class Examen extends javax.swing.JFrame {
      */
     public Examen() {
         initComponents();
+        private void btnCalcularMouseClicked(java.awt.event.MouseEvent evt)  {
+            //TODO add your handling code here:
+            double promedio, Total;
+            String nombre;
+
+            Nombre= txtKC.getText();
+            promedio= Double.parseDouble(txtRN.getText());
+            Total= Double.parseDouble(txtOP.getText());
+
+            JOptionPane.showMessageDialog(null,total);
+            
+ private void btnCalcularMouseClicked(java.awt.event.MouseEvent evt)  {
+            //TODO add your handling code here:
+            double promedio, Total;
+            String nombre;
+
+            Nombre= txtPR.getText();
+            promedio= Double.parseDouble(txtTY.getText());
+            Total= Double.parseDouble(txtOU.getText());
+
+            JOptionPane.showMessageDialog(null,total);
+
+      private void btnCalcularMouseClicked(java.awt.event.MouseEvent evt)  {
+            //TODO add your handling code here:
+            double promedio, Total;
+            String nombre;
+
+            Nombre= txtNO.getText();
+            promedio= Double.parseDouble(txtNF.getText());
+            Total= Double.parseDouble(txtJG.getText());
+
+            JOptionPane.showMessageDialog(null,total);
+
+          private void btnCalcularMouseClicked(java.awt.event.MouseEvent evt)  {
+            //TODO add your handling code here:
+            double promedio, Total;
+            String nombre;
+
+            Nombre= txtER.getText();
+            promedio= Double.parseDouble(txtND.getText());
+            Total= Double.parseDouble(txtHG.getText());
+
+            JOptionPane.showMessageDialog(null,total); 
+              
+             private void btnCalcularMouseClicked(java.awt.event.MouseEvent evt)  {
+            //TODO add your handling code here:
+            double promedio, Total;
+            String nombre;
+
+            Nombre= txtQU.getText();
+            promedio= Double.parseDouble(txtTR.getText());
+            Total= Double.parseDouble(txtFJ.getText());
+
+            JOptionPane.showMessageDialog(null,total); 
+
+
+            private void btnMostrarActionPerformed(java.awt.event.ActionEvent evt) {
+                JOptionPane.showMessageDialog(null,txtPromedioGeneral.getValue ());
+
     }
 
     /**
